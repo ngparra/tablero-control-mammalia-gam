@@ -1,0 +1,43 @@
+---
+title: "Ejemplo tablero para examen"
+Autor: "Nicole Parra"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+```
+
+Column {data-width=500}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+
+```
+
+Column {data-width=500}
+-----------------------------------------------------------------------
+
+### Componente B
+
+```{r}
+
+```
+
+### Componente C
+
+```{r}
+
+```
+
+
+### Componente D
+
+```{r}
+
+```
